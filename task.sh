@@ -1,3 +1,4 @@
+# trigger
 #!/bin/bash
 
 arr[0]="bot: Hello Github!"
