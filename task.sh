@@ -10,6 +10,6 @@ d=`date '+%Y-%m-%dT%H:%M:%SZ'`
 
 echo "## cekin-Aja: ${d} (current)" > update.md
 
-git config --local user.email "PutuDevelopers-bot@github.com"
+git config --local user.email "88973775+PutuDevelopers-bot@users.noreply.github.com"
 git config --local user.name "PutuDevelopers-bot"
 git commit -am "${arr[$rand]} (at ${d})"
