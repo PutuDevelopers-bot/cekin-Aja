@@ -1,9 +1,9 @@
-name: cekin-Aja
+name: test1
 
 on:
   push:
     branches:
-      - master
+      - test1
       
   schedule:
     - cron: "3 * * * *"
