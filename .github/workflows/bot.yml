@@ -1,9 +1,9 @@
-name: test1
+name: cekin-Aja
 
 on:
   push:
     branches:
-      - test1
+      - master
       
   schedule:
     - cron: "3 * * * *"
@@ -23,8 +23,9 @@ jobs:
           ./task.sh
           
       - name: GitHub Push
-        uses: ad-m/github-push-action@v0.5.0
+        uses: ad-m/github-push-action@master
         with:
           force: true
           directory: "."
           github_token: ${{ secrets.GITHUB_TOKEN }}
+
